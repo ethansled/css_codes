@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+nav{
+    background-color: lightgray;
+}
+
+.logo{
+    float: left !important;
+    border-style: solid;
+    margin: 2%;
+    padding: 1%;
+}
+
+.menu_items{
+    background-color: greenyellow;
+    border-style: solid;
+    border-radius: 2%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.menu_list{
+    display: inline-block;
+    float: right;
+}
+
+div{
+    background-color: hotpink;
+    width: 30%;
+    display: inline-block;
+    overflow: auto;
+}
+
+h1, h2{
+    text-align: center;
+    background-color: indigo;
+    color: ivory;
+    clear: both;
+    display: block;
+}
+
+img{
+    width: 45%;
+}
