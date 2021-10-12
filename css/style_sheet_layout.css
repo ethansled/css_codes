@@ -125,3 +125,14 @@ p::first-letter{
     transform: rotate(90deg);
 }
 
+div{
+    border: 2px solid black;
+}
+
+p{
+    border: 1px solid red;
+    width: 25%;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+}
