@@ -3,41 +3,36 @@ body{
     background-color: lightgray;
 }
 
-nav{
-    background-color: lightgray;
-}
+
 
 .logo{
     float: left !important;
+}
+
+a{
+    background-color: white;
     border-style: solid;
+    border-width: 3%;
     margin: 2%;
     padding: 1%;
 }
 
-.menu_items{
-    background-color: greenyellow;
-    border-style: solid;
-    border-radius: 2%;
-    margin: 2%;
-    padding: 1%;
-}
-
-.menu_list{
-    display: inline-block;
+.manu_list{
+    display: block;
     float: right;
 }
 
 div{
-    background-color: hotpink;
-    width: 30%;
+    background-color: beige;
+    width: 35%;
     display: inline-block;
     overflow: auto;
 }
 
 h1, h2{
     text-align: center;
-    background-color: indigo;
-    color: ivory;
+    background-color: #4b0082;
+    color: #fffff0;
     clear: both;
     display: block;
 }
@@ -45,3 +40,88 @@ h1, h2{
 img{
     width: 45%;
 }
+
+.active{
+    background-color: #ffff00;
+}
+
+a:hover{
+    background-color: #0000ff;
+    font-size: 30px;
+    color: #dc143c;
+}
+
+a:focus{
+    background-color: #dc143c;
+}
+
+p:hover{
+    border-radius: 20%;
+    background-color: #ffe4c4;
+    border-style: double;
+}
+/*ul{
+    list-style-image: url('../img/trophy-png-30567.png');
+}*/
+
+p::first-letter{
+    color: darkcyan;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.animation{
+    display: block;
+    background-color: darksalmon;
+    color: ivory;
+    width: 35%;
+    border-radius: 5px;
+
+    transition-property: all;
+    transition-duration: .7s;
+    -moz-transition-timing-function: linear;
+    -moz-transition-delay: .5s;
+
+}
+
+.animation:hover{
+    display: block;
+    background-color: blanchedalmond;
+    color: red;
+    width: 65%;
+    border-radius: 50px;
+    border-style: dotted;
+    font-size: 36px;
+}
+
+.transform{
+    display: block;
+    border-style: dotted 10px;
+    margin: 1%;
+    padding: 1%;
+    background-color: seashell;
+    text-align: center;
+    width: 15%;
+    height: 30%;
+    transform: rotate(45deg);
+}
+
+.white{
+    display: inline-block;
+    border-style: solid;
+    margin: 1%;
+    padding: 1%;
+    background-color: #ffffff;
+    transform: rotate(90deg);
+}
+
+.black{
+    display: inline-block;
+    border-style: solid;
+    margin: 1%;
+    padding: 1%;
+    background-color: #000000;
+    transform: rotate(90deg);
+}
+
